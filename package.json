@@ -1,0 +1,26 @@
+{
+  "name": "simplewasm-confine-runtime",
+  "version": "0.0.1",
+  "description": "Confine runtime: Runs wasm in an isolate.",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava test/tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pfrazee/wasm-sandbox.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pfrazee/wasm-sandbox/issues"
+  },
+  "homepage": "https://github.com/pfrazee/wasm-sandbox#readme",
+  "devDependencies": {
+    "ava": "^3.15.0"
+  },
+  "dependencies": {
+    "abstract-confine-runtime": "^0.0.1"
+  }
+}
